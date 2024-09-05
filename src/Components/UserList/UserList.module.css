@@ -1,0 +1,38 @@
+/* src/styles/UserList.module.css */
+.userTable {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+.userTable th,
+.userTable td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+.button {
+    margin-right: 10px;
+    background-color: #007bff;
+    color: white;
+    padding: 8px 12px;
+    border: none;
+    cursor: pointer;
+}
+
+.buttonDelete {
+    background-color: red;
+    color: white;
+    padding: 8px 12px;
+    border: none;
+    cursor: pointer;
+}
+
+.loading {
+    font-size: 18px;
+}
+
+.error {
+    color: red;
+}
